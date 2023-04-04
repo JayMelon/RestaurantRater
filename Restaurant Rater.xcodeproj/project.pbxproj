@@ -16,6 +16,8 @@
 		4364EDF729DBDC4200DA61DA /* Restaurant_RaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364EDF629DBDC4200DA61DA /* Restaurant_RaterTests.swift */; };
 		4364EE0129DBDC4200DA61DA /* Restaurant_RaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364EE0029DBDC4200DA61DA /* Restaurant_RaterUITests.swift */; };
 		4364EE0329DBDC4200DA61DA /* Restaurant_RaterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364EE0229DBDC4200DA61DA /* Restaurant_RaterUITestsLaunchTests.swift */; };
+		4364EE1129DBDEEE00DA61DA /* Restaurant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4364EE0F29DBDEEE00DA61DA /* Restaurant.xcdatamodeld */; };
+		4364EE1329DBE51000DA61DA /* DishRaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364EE1229DBE51000DA61DA /* DishRaterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4364EDFC29DBDC4200DA61DA /* Restaurant RaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Restaurant RaterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4364EE0029DBDC4200DA61DA /* Restaurant_RaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant_RaterUITests.swift; sourceTree = "<group>"; };
 		4364EE0229DBDC4200DA61DA /* Restaurant_RaterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant_RaterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4364EE1029DBDEEE00DA61DA /* Restaurant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Restaurant.xcdatamodel; sourceTree = "<group>"; };
+		4364EE1229DBE51000DA61DA /* DishRaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishRaterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				4364EDE829DBDC4100DA61DA /* Assets.xcassets */,
 				4364EDEA29DBDC4100DA61DA /* LaunchScreen.storyboard */,
 				4364EDED29DBDC4100DA61DA /* Info.plist */,
+				4364EE0F29DBDEEE00DA61DA /* Restaurant.xcdatamodeld */,
+				4364EE1229DBE51000DA61DA /* DishRaterViewController.swift */,
 			);
 			path = "Restaurant Rater";
 			sourceTree = "<group>";
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4364EE1129DBDEEE00DA61DA /* Restaurant.xcdatamodeld in Sources */,
 				4364EDE429DBDC4000DA61DA /* ViewController.swift in Sources */,
 				4364EDE029DBDC4000DA61DA /* AppDelegate.swift in Sources */,
+				4364EE1329DBE51000DA61DA /* DishRaterViewController.swift in Sources */,
 				4364EDE229DBDC4000DA61DA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -596,6 +604,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4364EE0F29DBDEEE00DA61DA /* Restaurant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4364EE1029DBDEEE00DA61DA /* Restaurant.xcdatamodel */,
+			);
+			currentVersion = 4364EE1029DBDEEE00DA61DA /* Restaurant.xcdatamodel */;
+			path = Restaurant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4364EDD429DBDC4000DA61DA /* Project object */;
 }
