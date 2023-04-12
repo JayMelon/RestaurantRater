@@ -193,20 +193,20 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RestaurantCell" id="2se-bv-J0t" customClass="RestaurantTableViewCell" customModule="Restaurant_Rater" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="50" width="393" height="43.333332061767578"/>
+                                <rect key="frame" x="0.0" y="50" width="393" height="42.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2se-bv-J0t" id="ENO-sl-jWI">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.333332061767578"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="42.666667938232422"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ulc-CE-ORg">
-                                            <rect key="frame" x="20" y="10.999999999999998" width="84" height="21.333333333333329"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Entree" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ulc-CE-ORg">
+                                            <rect key="frame" x="20" y="11.000000000000002" width="84" height="20.666666666666671"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fbs-j5-I5c">
-                                            <rect key="frame" x="112" y="10.999999999999998" width="63" height="21.333333333333329"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fbs-j5-I5c">
+                                            <rect key="frame" x="112" y="11.000000000000002" width="63" height="20.666666666666671"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="63" id="fUz-al-h52"/>
                                             </constraints>
@@ -214,10 +214,10 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dishes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N48-fQ-BaE">
-                                            <rect key="frame" x="267" y="10.999999999999998" width="52" height="21.333333333333329"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N48-fQ-BaE">
+                                            <rect key="frame" x="267" y="11.000000000000002" width="52" height="20.666666666666671"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="52" id="VPc-pe-qgQ"/>
+                                                <constraint firstAttribute="width" constant="52" id="ZFM-Vm-mr0"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -225,16 +225,16 @@
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="Fbs-j5-I5c" firstAttribute="leading" secondItem="ulc-CE-ORg" secondAttribute="trailing" constant="8" id="0wU-LR-x9T"/>
-                                        <constraint firstItem="N48-fQ-BaE" firstAttribute="leading" secondItem="Fbs-j5-I5c" secondAttribute="trailing" constant="92" id="9Yr-DJ-Uou"/>
-                                        <constraint firstItem="ulc-CE-ORg" firstAttribute="baseline" secondItem="Fbs-j5-I5c" secondAttribute="baseline" id="CFA-NA-vPG"/>
-                                        <constraint firstItem="ulc-CE-ORg" firstAttribute="firstBaseline" secondItem="Fbs-j5-I5c" secondAttribute="firstBaseline" id="Lo1-r5-o7x"/>
-                                        <constraint firstItem="Fbs-j5-I5c" firstAttribute="baseline" secondItem="N48-fQ-BaE" secondAttribute="baseline" id="Sjj-z5-J7i"/>
-                                        <constraint firstItem="ulc-CE-ORg" firstAttribute="top" secondItem="ENO-sl-jWI" secondAttribute="topMargin" id="TBT-n5-fID"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="N48-fQ-BaE" secondAttribute="trailing" constant="54" id="VRZ-cY-bJC"/>
-                                        <constraint firstItem="Fbs-j5-I5c" firstAttribute="firstBaseline" secondItem="N48-fQ-BaE" secondAttribute="firstBaseline" id="c4D-KS-qUB"/>
-                                        <constraint firstItem="ulc-CE-ORg" firstAttribute="leading" secondItem="ENO-sl-jWI" secondAttribute="leadingMargin" id="jAJ-rH-MCd"/>
-                                        <constraint firstItem="ulc-CE-ORg" firstAttribute="centerY" secondItem="ENO-sl-jWI" secondAttribute="centerY" id="xXj-5j-ebm"/>
+                                        <constraint firstItem="ulc-CE-ORg" firstAttribute="top" secondItem="ENO-sl-jWI" secondAttribute="topMargin" id="ATe-Wq-edB"/>
+                                        <constraint firstItem="ulc-CE-ORg" firstAttribute="firstBaseline" secondItem="Fbs-j5-I5c" secondAttribute="firstBaseline" id="BQd-sK-rbo"/>
+                                        <constraint firstItem="ulc-CE-ORg" firstAttribute="leading" secondItem="ENO-sl-jWI" secondAttribute="leadingMargin" id="DL6-6z-zOl"/>
+                                        <constraint firstItem="N48-fQ-BaE" firstAttribute="leading" secondItem="Fbs-j5-I5c" secondAttribute="trailing" constant="92" id="Kfx-NQ-tcL"/>
+                                        <constraint firstItem="ulc-CE-ORg" firstAttribute="baseline" secondItem="Fbs-j5-I5c" secondAttribute="baseline" id="KuV-Hj-Wj8"/>
+                                        <constraint firstItem="ulc-CE-ORg" firstAttribute="centerY" secondItem="ENO-sl-jWI" secondAttribute="centerY" id="Xh4-SN-Du8"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="N48-fQ-BaE" secondAttribute="trailing" constant="54" id="YnZ-fX-tVN"/>
+                                        <constraint firstItem="Fbs-j5-I5c" firstAttribute="leading" secondItem="ulc-CE-ORg" secondAttribute="trailing" constant="8" id="ixq-RQ-PGB"/>
+                                        <constraint firstItem="N48-fQ-BaE" firstAttribute="firstBaseline" secondItem="Fbs-j5-I5c" secondAttribute="firstBaseline" id="t4h-rJ-ozM"/>
+                                        <constraint firstItem="N48-fQ-BaE" firstAttribute="baseline" secondItem="Fbs-j5-I5c" secondAttribute="baseline" id="xdH-hb-PCj"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
@@ -253,7 +253,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o0E-Df-jGx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1481.679389312977" y="-4.2253521126760569"/>
+            <point key="canvasLocation" x="1327" y="-4"/>
         </scene>
     </scenes>
     <resources>

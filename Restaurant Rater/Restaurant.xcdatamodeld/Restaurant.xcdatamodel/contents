@@ -6,6 +6,10 @@
         <attribute name="type" optional="YES" attributeType="String"/>
         <relationship name="restaurant" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Restaurant" inverseName="dishes" inverseEntity="Restaurant"/>
     </entity>
+    <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class">
+        <attribute name="attribute" optional="YES"/>
+        <relationship name="spices" optional="YES" maxCount="1" deletionRule="Nullify"/>
+    </entity>
     <entity name="Restaurant" representedClassName="Restaurant" syncable="YES" codeGenerationType="class">
         <attribute name="address" optional="YES" attributeType="String"/>
         <attribute name="name" optional="YES" attributeType="String"/>
